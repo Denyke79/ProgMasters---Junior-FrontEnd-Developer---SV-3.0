@@ -1,10 +1,10 @@
 # ProgMasters---Junior-FrontEnd-Developer---SV-3.0
 
-In the last 5 months I have been attending the [ProgMasters](https://progmasters.hu/) Junior FrontEnd Developer training, in this repo I would like to share some of the code I have written here.
+In the last 5 months I have been attending the [ProgMasters](https://progmasters.hu/) Junior FrontEnd Developer training. In this repo I would like to share some of the code I have written here.
 
-During the training I first learned the basics of HTML, CSS, SCSS, JavaScript, wrote code using Bootstrap, and then in the second half of the course I learned about FireBase, TypeScript and especially the Angular framework.
+During the training I first learned the basics of HTML, CSS, SCSS, JavaScript, wrote code using Bootstrap. Then in the second half of the course I got to know about FireBase, TypeScript and especially the Angular framework.
 
-During the bootcamp I had the opportunity to work on 2 independent project assignments with 3 of my fellow students. The first project was to create a static responsive website based on a sample image. The second project was a free choice single page application in Angular framework using Bootstrap. These are included in this repo.
+During the bootcamp I had the opportunity to work on two independent project assignments with three of my fellow students. The first project was to create a static responsive website based on a sample image. The second project was a free choice single page application in Angular framework using Bootstrap. These are included in this repo.
 
 ## Single Page BikeShop Website
 
