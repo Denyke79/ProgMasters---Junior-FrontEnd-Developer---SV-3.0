@@ -21,7 +21,7 @@ We plan to continue the project with Dávid Báskay in the future, where we woul
 
 ## Static Travel Blog
 
-The task was to create a static page based on sample images. These images can be found in the assets\sample folder.
+The task was to create a static page based on sample images. These images can be found in the [assets\sample](https://github.com/Denyke79/ProgMasters---Junior-FrontEnd-Developer---SV-3.0/tree/main/static-project-travel-main/assets/sample) folder.
 
 Vivien Gábor, Roland Lengyel and Dávid Báskay worked with me on the project. For the project we used a Trello board, and for the expected look and feel we also used the help of Figma.
 
