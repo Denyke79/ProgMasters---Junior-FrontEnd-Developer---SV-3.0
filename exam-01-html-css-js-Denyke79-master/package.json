@@ -1,0 +1,22 @@
+{
+  "name": "exam-01-html-css-solutions",
+  "version": "1.0.0",
+  "description": "Készítsd el a képeken látható weboldalt HTML és CSS segítségével! (képek a leírás alatt)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strukturavaltas-Frontend-2021/exam-01-html-css-solutions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Strukturavaltas-Frontend-2021/exam-01-html-css-solutions/issues"
+  },
+  "homepage": "https://github.com/Strukturavaltas-Frontend-2021/exam-01-html-css-solutions#readme",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}
