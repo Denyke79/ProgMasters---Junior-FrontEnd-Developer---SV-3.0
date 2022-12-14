@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PROGsuperstars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <navbar class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PROGsuperstars</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Browse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Admin Area</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search instructors..."
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </navbar>
+
+    <main>
+        <section class="mt-3">
+            <!-- Táblázat -->
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-sm-12">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First Name</th>
+                                <th scope="col">Last Name</th>
+                                <th scope="col">Date of Birth</th>
+                                <th scope="col">Gender</th>
+                                <th scope="col">Professional Level</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody" class="table-group-divider">
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Down</td>
+                                <td>Otero</td>
+                                <td>1960-02-20</td>
+                                <td>Male</td>
+                                <td>Senior</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Charles</td>
+                                <td>George</td>
+                                <td>1946-03-07</td>
+                                <td>Male</td>
+                                <td>Junior</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Rochelle</td>
+                                <td>Crisp</td>
+                                <td>1985-02-15</td>
+                                <td>Female</td>
+                                <td>Junior</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-sm-12">
+                    <div class="row">
+                        <!-- Form -->
+                        <div class="col-md-9">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Add a new person</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Enter details below</h6>
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="firstName" class="form-label">First Name</label>
+                                            <input type="text" class="form-control" id="firstName"
+                                                placeholder="Enter first name here...">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="lastName" class="form-label">First Name</label>
+                                            <input type="text" class="form-control" id="lastName"
+                                                placeholder="Enter last name here...">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="birthDate" class="form-label">Date of Birth</label>
+                                            <input type="date" class="form-control datepicker"
+                                                data-date-format="mm/dd/yyyy" id="birthDate">
+                                        </div>
+                                        <h6 class="text-muted">Professional Level</h6>
+                                        <div class="form-check">
+                                            <input class="form-check-input" value="Junior" type="radio" name="flexRadioDefault"
+                                                id="radioJunior">
+                                            <label class="form-check-label" for="radioJunior">Junior</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" value="Senior" type="radio" name="flexRadioDefault"
+                                                id="radioSenior" checked>
+                                            <label class="form-check-label" for="readioSenior">Senior</label>
+                                        </div>
+                                        <select class="form-select mt-3" id="genderSelect" aria-label="Default select example">
+                                            <option selected>Select Gender</option>
+                                            <option value="1">Male</option>
+                                            <option value="2">Female</option>
+                                            <option value="3">Other</option>
+                                        </select>
+                                        <div class="mb-3 mt-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">This checkbox is here to
+                                                annoy people, but you must check it</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary" id="addBtn">Add to list</button>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Kép -->
+                        <div class="col-md-3">
+                            <img src="http://placeimg.com/640/480/people" alt="People" class="col-md-12">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
