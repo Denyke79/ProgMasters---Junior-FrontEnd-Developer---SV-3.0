@@ -1,9 +1,0 @@
-@use './utils/mixin' as *;
-
-.row {
-    .table {
-        td:hover {
-            @include hover-item();
-        }
-    }
-}
