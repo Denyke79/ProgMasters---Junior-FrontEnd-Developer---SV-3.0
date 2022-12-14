@@ -4,7 +4,7 @@ In the last 5 months I have been attending the [ProgMasters](https://progmasters
 
 During the training I first learned the basics of HTML, CSS, SCSS, JavaScript, wrote code using Bootstrap, and then in the second half of the course I learned about FireBase, TypeScript and especially the Angular framework.
 
-During the bootcamp I had the opportunity to work on 2 independent project assignments with 3 of my fellow students. The first project was to create a static responsive website based on a sample image. The second project was a free choice single page application in Angular framework using Bootstrap. These and my exam works are included in this repo.
+During the bootcamp I had the opportunity to work on 2 independent project assignments with 3 of my fellow students. The first project was to create a static responsive website based on a sample image. The second project was a free choice single page application in Angular framework using Bootstrap. These are included in this repo.
 
 ## Single Page BikeShop Website
 
@@ -26,20 +26,3 @@ The task was to create a static page based on sample images. These images can be
 Vivien Gábor, Roland Lengyel and Dávid Báskay worked with me on the project. For the project we used a Trello board, and for the expected look and feel we also used the help of Figma.
 
 I was mainly responsible for writing the navigation menu and the messaging section at the bottom of the page. I also worked on the carousel section for a longer time with the help of pair programming.
-
-## Exams
-#### Final exam
-We had 180 minutes for the practical exam. You can read the exact task description in the readme file inside the exam folder.
-I reached the level shown in the main branch in 180 minutes, which the mentors rated at 79%.
-
-#### Third exam
-We had 180 minutes for the practical exam. You can read the exact task description in the readme file inside the exam folder.
-I reached the level shown in the main branch in 180 minutes, which the mentors rated at 85%.
-
-#### Second exam
-We had 180 minutes for the practical exam. You can read the exact task description in the readme file inside the exam folder.
-I reached the level shown in the main branch in 180 minutes, which the mentors rated at 87%.
-
-#### First exam
-We had 180 minutes for the practical exam. You can read the exact task description in the readme file inside the exam folder.
-I reached the level shown in the main branch in 180 minutes, which the mentors rated at 95%.
