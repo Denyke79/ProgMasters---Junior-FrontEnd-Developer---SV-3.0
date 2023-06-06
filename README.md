@@ -1,10 +1,22 @@
-# ProgMasters---Junior-FrontEnd-Developer---SV-3.0
+# ProgMasters---Junior-FrontEnd-Developer & Full Stack API Developer---SV-3.0
 
-In the last 5 months I have been attending the [ProgMasters](https://progmasters.hu/) Junior FrontEnd Developer training. In this repo I would like to share some of the code I have written here.
+In the last 8 months I have been attending the [ProgMasters](https://progmasters.hu/) Junior FrontEnd Developer & Junior FullStack API Developer training. In this repo I would like to share some of the code I have written here.
 
-During the training I first learned the basics of HTML, CSS, SCSS, JavaScript, wrote code using Bootstrap. Then in the second half of the course I got to know about FireBase, TypeScript and especially the Angular framework.
+During the training I first learned the basics of HTML, CSS, SCSS, JavaScript, wrote code using Bootstrap, then I got to know about FireBase, TypeScript and especially the Angular framework. Then in the second half of the course I got to know about backend development: NodeJS, Express, MongoDB, authentication, CI/CD, Docker, swagger.
 
 During the bootcamp I had the opportunity to work on two independent project assignments with three of my fellow students. The first project was to create a static responsive website based on a sample image. The second project was a free choice single page application in Angular framework using Bootstrap. These are included in this repo.
+
+I was then able to work on a standalone project, a full stack api with these stacks: Angular frontend + NodeJs backend + Mongo database.
+
+## Full Stack API - vizsgaremek
+
+This web application is designed to support the administrative activities of the Social Workers in Győr's Kindergartens and Schools, while also providing useful information for non-workers.
+
+The Social Helpers of Kindergarten and School in Győr would like to use the activity diary, which has been kept in an excel spreadsheet, as a web API, and also provide information to external visitors.
+
+The system to be created will allow users to log in, record and modify various administrative activities.
+
+After the course is completed, I will continue working on the site, which is scheduled to go live in 2024.
 
 ## Single Page BikeShop Website
 
